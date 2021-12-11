@@ -12,14 +12,14 @@ import {
 } from "./NavElements";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">X - Ray</NavLogo>
-          <MobileIcon>
-            <MenuIcon />
+          <MobileIcon onClick={toggle}>
+            <MenuIcon fontSize="large" />
           </MobileIcon>
           <NavMenu>
             <NavItem>
@@ -29,9 +29,9 @@ const Navbar = () => {
               <NavLinks to="servicios">Servicios</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Convenios">Convenios</NavLinks>
+              <NavLinks to="convenios">Convenios</NavLinks>
               <NavItem>
-                <NavLinks to="Contactanos">Contactanos</NavLinks>
+                <NavLinks to="contactanos">Contactanos</NavLinks>
               </NavItem>
             </NavItem>
           </NavMenu>
