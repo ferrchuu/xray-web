@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
   padding: 0 30px;
   height: 800px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 `;
 
 export const HeroBg = styled.div`
@@ -36,7 +36,7 @@ export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1280px;
   position: absolute;
-  padding: 8px 24px;
+  padding: 180px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +84,7 @@ export const ArrowForward = styled(ArrowForwardIosIcon)`
   font-size: 20px;
 `;
 
-export const ArrowRight = styled(ArrowBackIosIcon)`
+export const ArrowRight = styled(ArrowForwardIcon)`
   margin-left: 8px;
   font-size: 20px;
 `;
