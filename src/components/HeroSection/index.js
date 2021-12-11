@@ -39,8 +39,8 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Radiología Domiciliaria</HeroH1>
         <HeroP>
-          Llegamos hasta la comodidad te tu hogar para poder ir directo al
-          medico con tu radiografía.
+          No esperes mas turnos! No te muevas de tu hogar! Contamos con
+          professionales que puedan solucionar tus inconvenencias!
         </HeroP>
         <HeroBtnWrapper>
           <Buttonn
